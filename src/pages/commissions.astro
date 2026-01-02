@@ -1,5 +1,4 @@
 ---
-// src/pages/commissions.astro
 import Layout from '../layouts/Layout.astro'
 import Navbar from '../components/Navbar.astro';
 
@@ -26,6 +25,7 @@ const pageTitle = "Commission Request";
       <form
         name="commission-request"
         method="POST"
+        action="/success"
         data-netlify="true"
         netlify-honeypot="bot-field"
         class="space-y-6"
